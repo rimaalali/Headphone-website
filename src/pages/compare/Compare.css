@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.compare_page {
+  background-color: #f5f5f5;
+  min-width: 1200px;
+}
+.compare {
+  width: 80%;
+  margin: 3% 10% 3% 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 4%;
+}
+.aura_Pro,
+.flow {
+  width: 1000px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+}
+.info {
+  color: #666666;
+  text-align: center;
+  padding: 30px 0 60px 0;
+}
+.img_info1 h1 {
+  color: #52483e;
+  font-size: 50px;
+  font-weight: 600;
+}
+.pric {
+  color: #8b8782;
+  font-size: 23px;
+  margin: 15px 0 12px 0;
+  text-align: center;
+}
+.img_info1 button {
+  background-image: linear-gradient(to top, #8b8782, #52483e);
+  color: #ffffff;
+  border-radius: 50px;
+  padding: 12px 30px 12px 30px;
+  font-size: 17px;
+  margin-bottom: 60px;
+}
+.head,
+.ear {
+  height: 400px;
+  width: 500px;
+  object-fit: contain;
+}
+.title1 {
+  margin-top: 4%;
+  color: #52483e;
+  font-weight: 500;
+  font-size: 70px;
+  text-align: center;
+}
+.title2 {
+  color: #8b8782;
+  font-size: 30px;
+  padding: 10px 0 10px 0;
+  text-align: center;
+}
+.img_info1 {
+  width: 90%;
+  height: 650px;
+  background-color: #f5f5f5;
+  border-radius: 20px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+.icon {
+  width: 40px;
+  height: 40px;
+  font-weight: 100;
+  color: #d2cdc6;
+  text-align: center;
+  margin: 10px 0 10px 0;
+}
